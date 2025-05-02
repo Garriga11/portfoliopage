@@ -66,7 +66,7 @@ export const contact: contact[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https/github.com/garriga11',
+    link: 'https://github.com/Garriga11/',
     
   },
  
