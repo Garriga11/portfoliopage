@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import React from 'react';
 import { Tech_Stck } from './data';
@@ -16,7 +16,8 @@ const WebProjects = [
   {
     name: 'Starter',
     description: "Full integreation demo built with NextJS, Clerk, Prisma & Versal.",
-    link: 'garriga19.com',
+    link: 'https://www.garriga19programs.com',
+
     id: 'project2',
   }
 ];
