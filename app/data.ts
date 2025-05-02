@@ -39,7 +39,7 @@ export const hobbies : hobbies[] = [
   {
   hobby_1 : "Reading",
   hobby_2: "Writing",
-  hobby_3: "Movies/Theatre",
+  hobby_3: "Movies/Theater",
   id: "end"
   }
 ]
