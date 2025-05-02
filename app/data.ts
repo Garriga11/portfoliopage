@@ -1,14 +1,7 @@
 import { Languages } from "lucide-react"
 
-
-
-type WorkExperiance = {
-  company: string
-  title: string
-  start: string
-  end: string,
-  id: string
-
+type contact = {
+  email: string, 
 
 }
 
@@ -18,41 +11,37 @@ type Tech_Stck = {
   strorage: string,
   security: string, 
   styling: string, 
-  deployment: string
+  deployment: string,
   id: string
 }
 
+type hobbies =  {
+
+hobby_1: string,
+hobby_2: string, 
+hobby_3: string
+id: string
+
+
+
+
+}
 
 type SocialLink = {
-  label: string
-  link: string
+  label: string,
+  link: string,
+
 }
 
 
 
-export const WorkExperiance: WorkExperiance[] = [
+export const hobbies : hobbies[] = [
   {
-    company: 'Sudden Services, Inc.',
-    title: 'Vision Plus',
-    start: '2022',
-    end: 'Present',
-    id: 'work1',
-  },
-  {
-    company: 'Gator Computers',
-    title: 'Technician',
-    start: '2022',
-    end: '2022',
-  
-    id: 'work2',
-  },
-  {
-    company: 'Microtel Inn & Suites',
-    title: 'Auditor',
-    start: '2020',
-    end: 'Present',
-    id: 'work3',
-  },
+  hobby_1 : "Reading",
+  hobby_2: "Writing",
+  hobby_3: "Movies/Theatre",
+  id: "end"
+  }
 ]
 
 export const Tech_Stck: Tech_Stck[]=[
@@ -69,7 +58,11 @@ export const Tech_Stck: Tech_Stck[]=[
 }
 ]
 
-
+export const contact: contact[] = [
+  {
+    email: 'garriga@g19programs.com'
+  }
+]
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',

@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'G19 Prgrams ',
+  title: 'G19 Programs ',
   description:
     'Professional Porfolio',
 }

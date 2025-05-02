@@ -1,9 +1,10 @@
 'use client'
 
 import React from 'react';
-import { Tech_Stck } from './data';
-import { WorkExperiance } from './data';
+import { hobbies, Tech_Stck } from './data';
 import { SOCIAL_LINKS } from './data';
+import { AnimatedBackground } from '@/components/ui/animated-background'
+import {  contact }  from './data'
 
 const WebProjects = [
   {
@@ -26,14 +27,18 @@ const WebProjects = [
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
+
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <header className="text-center">
           <h1 className="text-4xl font-bold">Ashley Garriga</h1>
           <p className="text-lg text-gray-400">Web Developer / Programmer</p>
+          <span className="text-sm text-gray-400">Contact: garriga@G19programs</span>
         </header>
 
         {/* Projects Section */}
+        
+          
         <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-4">Selected Projects</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -53,8 +58,11 @@ export default function Portfolio() {
             ))}
           </div>
         </section>
+        
 
-        {/* Tech Stack Section */}
+       
+
+        
         <section className="mt-8">
           <h2 className="text-2xl font-semibold mb-4">Tech Stack</h2>
           <div className="flex flex-wrap gap-4">
@@ -62,25 +70,32 @@ export default function Portfolio() {
               <div key={tech.id} className="bg-gray-800 text-white px-4 py-2 rounded-md shadow-md flex items-center gap-2">
                 <span className="text-lg">{tech.name}</span>
                 <span className="text-sm text-gray-400">{tech.language}</span>
+                <span className="text-sm text-gray-400">{tech.strorage}</span>
+                <span className="text-sm text-gray-400">{tech.security}</span>
+                <span className="text-sm text-gray-400">{tech.styling}</span>
+                <span className="text-sm text-gray-400">{tech.deployment}</span>
               </div>
             ))}
           </div>
         </section>
+        
 
-        {/* Work Experience Section - Fully Separate */}
+  
         <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
+          <h2 className="text-2xl font-semibold mb-4">Hobbies</h2>
           <div className="flex flex-col gap-6">
-            {WorkExperiance.map((job) => (
-              <div key={job.id} className="bg-gray-800 p-4 rounded-lg shadow-md">
-                <h3 className="text-xl font-bold">{job.title} @ {job.company}</h3>
-                <p className="text-gray-400">{job.start} - {job.end}</p>
+            {hobbies.map((hobby) => (
+              <div key={hobby.id} className="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold">{hobby.hobby_1}</h3>
+                <h3 className="text-2xl font-bold">{hobby.hobby_2}</h3>
+                <h3 className="text-2xl font-bold">{hobby.hobby_3}</h3>
+              
               </div>
             ))}
           </div>
         </section>
 
-        {/* Social Links Section */}
+          
         <div className="fixed top-1/2 right-4 flex flex-col gap-2">
           {SOCIAL_LINKS.map((social) => (
             <a key={social.label} href={social.link} target="_blank" rel="noopener noreferrer"
