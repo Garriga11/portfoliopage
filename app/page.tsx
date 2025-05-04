@@ -15,9 +15,9 @@ const WebProjects = [
   },
 
   {
-    name: 'Starter',
-    description: "Full integreation demo built with NextJS, Clerk, Prisma & Versal.",
-    link: 'https://www.garriga19programs.com',
+    name: 'Bio Quiz',
+    description: "Interactive bio 101 quiz.",
+    link: 'https://biq-quiz.vercel.app/',
 
     id: 'project2',
   }
