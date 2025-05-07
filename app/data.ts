@@ -42,7 +42,7 @@ export const skills : skills[] = [
   skill_2: "Security & SCP",
   skill_3: "Deploy & Host",
   skill_4: "Cloud Integration",
-  skill_5: "Ecommerce API Routes"
+  skill_5: "Ecommerce API Routes",
   id: "end"
   }
 ]
