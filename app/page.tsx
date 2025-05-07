@@ -89,7 +89,7 @@ export default function Portfolio() {
 
   
         <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">Services</h2>
+          <h2 className="text-sm font-semibold mb-4">Services</h2>
           <div className="flex flex-col gap-6 text-xl">
             {skills.map((skill) => (
               <div key={skill.id} className="bg-gray-800 p-4 rounded-lg shadow-md">
