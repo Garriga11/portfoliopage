@@ -33,7 +33,7 @@ export default function Portfolio() {
         <header className="text-center">
           <h1 className="text-4xl font-bold">Ashley Garriga</h1>
           <p className="text-lg text-gray-400">Web Developer / Programmer</p>
-          <span className="text-sm text-gray-400">Contact: garriga@G19programs</span>
+          <span className="text-sm text-gray-400">Contact: garriga@G19programs.com</span>
         </header>
 
         {/* Projects Section */}
@@ -82,13 +82,14 @@ export default function Portfolio() {
 
   
         <section className="mt-12">
-          <h2 className="text-2xl font-semibold mb-4">Hobbies</h2>
+          <h2 className="text-2xl font-semibold mb-4">Services</h2>
           <div className="flex flex-col gap-6">
-            {hobbies.map((hobby) => (
-              <div key={hobby.id} className="bg-gray-800 p-4 rounded-lg shadow-md">
-                <h3 className="text-2xl font-bold">{hobby.hobby_1}</h3>
-                <h3 className="text-2xl font-bold">{hobby.hobby_2}</h3>
-                <h3 className="text-2xl font-bold">{hobby.hobby_3}</h3>
+            {skills.map((skill) => (
+              <div key={skill.id} className="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold">{skill.skill_1}</h3>
+                <h3 className="text-2xl font-bold">{skill.skill_2}</h3>
+                <h3 className="text-2xl font-bold">{skill.skill_3}</h3>
+                <h3 className="text-2xl font-bold">{skill.skill_4}</h3>
               
               </div>
             ))}
