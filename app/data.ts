@@ -15,11 +15,12 @@ type Tech_Stck = {
   id: string
 }
 
-type hobbies =  {
+type skills =  {
 
-hobby_1: string,
-hobby_2: string, 
-hobby_3: string
+skill_1: string,
+skill_2: string, 
+skill_3: string
+skill_4: string,
 id: string
 
 
@@ -37,9 +38,10 @@ type SocialLink = {
 
 export const hobbies : hobbies[] = [
   {
-  hobby_1 : "Reading",
-  hobby_2: "Writing",
-  hobby_3: "Movies/Theater",
+  skill_1 : "Database Management",
+  skill_2: "Security Content Policy"
+  skill_3: "Deploy & Host"
+  skill_4: "Cloud Integration"
   id: "end"
   }
 ]
