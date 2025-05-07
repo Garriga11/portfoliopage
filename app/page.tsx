@@ -23,9 +23,9 @@ const WebProjects = [
 
    {
     name: 'Human Detection Interface',
-    description: "Real Time People Detection From Your WebCam.",
-    link: https://detection-wheat.vercel.app/',
-    id: 'project3',
+    description: "Real Time People Detection From Your WebCam",
+    link: 'https://detection-wheat.vercel.app/',
+    id: 'project3'
   }
 ];
 
