@@ -39,9 +39,9 @@ type SocialLink = {
 export const skills : skills[] = [
   {
   skill_1 : "Database Management",
-  skill_2: "Security Content Policy"
-  skill_3: "Deploy & Host"
-  skill_4: "Cloud Integration"
+  skill_2: "Security Content Policy",
+  skill_3: "Deploy & Host",
+  skill_4: "Cloud Integration",
   id: "end"
   }
 ]
