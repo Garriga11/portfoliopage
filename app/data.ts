@@ -36,7 +36,7 @@ type SocialLink = {
 
 
 
-export const hobbies : hobbies[] = [
+export const skills : skills[] = [
   {
   skill_1 : "Database Management",
   skill_2: "Security Content Policy"
