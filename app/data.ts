@@ -74,7 +74,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
  
   {
     label: 'LinkedIn',
-    link: ''www.linkedin.com/in/Garriga19
+    link: 'https://linkedin.com/in/Garriga19'
+
 ,
   },
  
