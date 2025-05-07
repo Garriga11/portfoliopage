@@ -20,13 +20,13 @@ const WebProjects = [
     description: "Interactive bio 101 quiz.",
     link: 'https://biq-quiz.vercel.app/',
     id: 'project2',
-  }
+  },
 
    {
     name: 'Human Detection Interface',
     description: "Real Time People Detection From Your WebCam",
     link: 'https://detection-wheat.vercel.app/',
-    id: 'project3',
+    id: 'project3'
   }
 ];
 
