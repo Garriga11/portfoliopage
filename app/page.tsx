@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import { hobbies, Tech_Stck } from './data';
+import { skills, Tech_Stck } from './data';
 import { SOCIAL_LINKS } from './data';
 import { AnimatedBackground } from '@/components/ui/animated-background'
 import {  contact }  from './data'
