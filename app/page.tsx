@@ -97,6 +97,8 @@ export default function Portfolio() {
                 <h3 className="text-2xl font-bold">{skill.skill_2}</h3>
                 <h3 className="text-2xl font-bold">{skill.skill_3}</h3>
                 <h3 className="text-2xl font-bold">{skill.skill_4}</h3>
+                <h3 className="text-2xl font-bold">{skill.skill_5}</h3>
+              
               
               </div>
             ))}
