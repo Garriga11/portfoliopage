@@ -22,8 +22,8 @@
 
 ```tsx
 
-  Tech Stack
-            </motion.h2>
+Tech Stack
+</motion.h2>
 <div className="flex flex-wrap gap-4">
 {Tech_Stck.map((tech) => (
 <motion.div
