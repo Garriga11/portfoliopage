@@ -7,9 +7,10 @@
 
 ## 🚀 Features
 
-- AI-powered search
 - Next.js + TypeScript
 - TailwindCSS for styling
+- Next-Themes
+- Theme Provider & Motion
 
 ## 💻 Tech Stack
 - **Frontend:** Next.js, TypeScript
