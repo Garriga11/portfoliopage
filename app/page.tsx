@@ -93,11 +93,11 @@ export default function Portfolio() {
           <div className="flex flex-col gap-6 list-disc text-sm">
             {skills.map((skill) => (
               <div key={skill.id} className="bg-gray-800 p-4 rounded-lg shadow-md">
-                <h3 className="text-2xl font-bold">{skill.skill_1}</h3>
-                <h3 className="text-2xl font-bold">{skill.skill_2}</h3>
-                <h3 className="text-2xl font-bold">{skill.skill_3}</h3>
-                <h3 className="text-2xl font-bold">{skill.skill_4}</h3>
-                <h3 className="text-2xl font-bold">{skill.skill_5}</h3>
+                <h3 className="text-xl list-disc font-bold">{skill.skill_1}</h3>
+                <h3 className="text-xl list-disc font-bold">{skill.skill_2}</h3>
+                <h3 className="text-xl list-disc font-bold">{skill.skill_3}</h3>
+                <h3 className="text-xl list-disc font-bold">{skill.skill_4}</h3>
+                <h3 className="text-xl list-disc font-bold">{skill.skill_5}</h3>
               
               
               </div>
