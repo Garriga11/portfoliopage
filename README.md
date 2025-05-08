@@ -2,12 +2,13 @@
 
 
 
-![Screenshot 2025-05-02 at 03-44-48 G19 Programs](https://github.com/user-attachments/assets/339d4beb-3d4c-4181-8ce6-13108176d7b7)
+
 
 # Project Name
 A brief description of what your project does.
 
-## 🚀 Features
+## 🚀 Features![Screenshot 2025-05-07 at 22-09-22 G19 Programs](https://github.com/user-attachments/assets/fb0865bb-518a-48a2-812f-2d3c934f734f)
+
 - AI-powered search
 - Next.js + TypeScript
 - TailwindCSS for styling
