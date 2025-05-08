@@ -21,10 +21,16 @@
 
 
 ```tsx
-import { motion } from "framer-motion";
 
-const MyComponent = () => (
-  <motion.div animate={{ scale: 1.2 }} transition={{ duration: 0.5 }}>
-    🚀 Animated Component
-  </motion.div>
-);
+  Tech Stack
+            </motion.h2>
+<div className="flex flex-wrap gap-4">
+{Tech_Stck.map((tech) => (
+<motion.div
+key={tech.id}
+className="bg-gray-800 text-white px-4 py-2 rounded-md shadow-md flex items-center gap-2"
+initial={{ opacity: 0, scale: 0.9 }}
+animate={{ opacity: 1, scale: 1 }}
+transition={{ duration: 0.8 }}>
+
+
