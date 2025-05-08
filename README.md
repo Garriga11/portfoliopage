@@ -2,12 +2,13 @@
 
 
 
+![Screenshot 2025-05-07 at 22-09-22 G19 Programs](https://github.com/user-attachments/assets/6ac71ebe-6b46-41a1-b4a3-eab1964ad854)
 
 
 # Project Name
 A brief description of what your project does.
 
-## 🚀 Features![Screenshot 2025-05-07 at 22-09-22 G19 Programs](https://github.com/user-attachments/assets/fb0865bb-518a-48a2-812f-2d3c934f734f)
+## 🚀 Features
 
 - AI-powered search
 - Next.js + TypeScript
