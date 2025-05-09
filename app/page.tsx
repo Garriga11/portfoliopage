@@ -1,3 +1,4 @@
+
 'use client';
 
 import React from 'react';
@@ -30,12 +31,7 @@ const WebProjects = [
 
 export default function Portfolio() {
   return (
-    <ThemeProvider
-      enableSystem={true}
-      attribute="class"
-      storageKey="theme"
-      defaultTheme="system"
-    >
+    <ThemeProvider enableSystem attribute="class" storageKey="theme" defaultTheme="system">
       <div className="min-h-screen bg-gray-900 text-white p-6">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
@@ -97,16 +93,20 @@ export default function Portfolio() {
                   </a>
                 </motion.div>
               ))}
-              <motion.div
-                className="flex justify-center items-center bg-gray-800 shadow-xl text-white font-semibold p-4 rounded-lg"
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1 }}
-              >
-                <Logo src="/logo.jpg" alt="logo" className="w-30 h-20" />
-                <p className="text-center p-4 font-semibold italic">G19 Programs</p>
-              </motion.div>
             </div>
+          </section>
+
+          {/* G19 Logo Section */}
+          <section className="flex justify-center mt-10">
+            <motion.div
+              className="flex flex-col items-center"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1 }}
+            >
+              <Logo src="/logo.jpg" alt="logo" className="w-24 h-24 rounded" />
+              <p className="text-white mt-2 text-lg font-semibold italic">G19 Programs</p>
+            </motion.div>
           </section>
 
           {/* Tech Stack Section */}
