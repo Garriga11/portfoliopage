@@ -32,7 +32,7 @@ const WebProjects = [
   {
     name: 'Savvy, A Social Media Template',
     description: 'Create an account, login, create posts and share ideas',
-    link: 'https://enabled-coyote-1.accounts.dev/sign-in?redirect_url=https%3A%2F%2Fsocial-media-template-chi.vercel.app%2F',
+    link: "https://accounts.savvy19.fyi",
     id: 'project4',
   },
 ];
