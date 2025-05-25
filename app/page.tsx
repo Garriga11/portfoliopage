@@ -28,10 +28,12 @@ const WebProjects = [
     id: 'project3',
   },
 
-  name: 'Savvy: a social media platform',
-  description: 'Create post. share ideas securly with Savvy',
-  link:'https://enabled-coyote-1.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2F',
-  id: 'project4',
+
+  {
+    name: 'Savvy, A Social Media Template',
+    description: 'Create an account, login, create posts and share ideas',
+    link: 'https://enabled-coyote-1.accounts.dev/sign-in?redirect_url=https%3A%2F%2Fsocial-media-template-chi.vercel.app%2F',
+    id: 'project4',
   },
 ];
 
