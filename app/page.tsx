@@ -27,6 +27,12 @@ const WebProjects = [
     link: 'https://detection-wheat.vercel.app/',
     id: 'project3',
   },
+
+  name: 'Savvy: a social media platform',
+  description: 'Create post. share ideas securly with Savvy',
+  link: https://enabled-coyote-1.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2F
+  id: 'project4',
+  },
 ];
 
 export default function Portfolio() {
